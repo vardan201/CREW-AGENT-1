@@ -1,0 +1,5 @@
+uvicorn==0.30.0
+fastapi==0.112.0
+pydantic==2.8.2
+crewai==0.50.0
+python-dotenv==1.0.1
