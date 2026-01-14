@@ -1,0 +1,44 @@
+marketing_analysis_task:
+  description: >
+    Analyze marketing strengths from: Channels={marketing_channels}, Users={monthly_users}, CAC={cac}, Retention={retention_strategy}
+    
+    Output JSON: {{"agent_name": "Marketing", "strengths": ["strength 1", "strength 2", "strength 3"]}}
+  expected_output: >
+    JSON with agent_name and 3-5 marketing strengths
+  agent: marketing_advisor
+
+tech_analysis_task:
+  description: >
+    Analyze tech strengths from: Type={product_type}, Features={current_features}, Stack={tech_stack}, AI={ai_usage}
+    
+    Output JSON: {{"agent_name": "Tech", "strengths": ["strength 1", "strength 2", "strength 3"]}}
+  expected_output: >
+    JSON with agent_name and 3-5 technical strengths
+  agent: tech_lead
+
+org_hr_analysis_task:
+  description: >
+    Analyze organizational strengths from: Team={team_size}, Roles={founder_roles}, Hiring={hiring_plan}
+    
+    Output JSON: {{"agent_name": "Org", "strengths": ["strength 1", "strength 2", "strength 3"]}}
+  expected_output: >
+    JSON with agent_name and 3-5 organizational strengths
+  agent: org_hr_strategist
+
+competitive_analysis_task:
+  description: >
+    Analyze competitive strengths from: Competitors={competitors}, Advantage={unique_advantage}, Pricing={pricing_model}
+    
+    Output JSON: {{"agent_name": "Competitive", "strengths": ["strength 1", "strength 2", "strength 3"]}}
+  expected_output: >
+    JSON with agent_name and 3-5 competitive strengths
+  agent: competitive_analyst
+
+finance_analysis_task:
+  description: >
+    Analyze financial strengths from: Burn={monthly_burn}, Revenue={current_revenue}, Funding={funding_status}, Runway={runway_months}
+    
+    Output JSON: {{"agent_name": "Finance", "strengths": ["strength 1", "strength 2", "strength 3"]}}
+  expected_output: >
+    JSON with agent_name and 3-5 financial strengths
+  agent: finance_advisor
